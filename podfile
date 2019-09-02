@@ -1,0 +1,11 @@
+
+source 'https://github.com/brightcove/BrightcoveSpecs.git'
+
+use_frameworks!
+
+platform :ios, '11.0' # (or whatever version you want)
+
+target 'Brightcove' do
+pod 'Brightcove-Player-Core', '6.3.11'  
+
+end

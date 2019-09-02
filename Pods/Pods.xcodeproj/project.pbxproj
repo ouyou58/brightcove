@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4BA6B2ECD9BCD2F01136C3E682591197 /* Brightcove-Player-Core */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 96AFFE4D87F712EAE6EE70AE1C630DA5 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Core" */;
+			buildPhases = (
+			);
+			dependencies = (
+				EB387DB150B9936A1F2D0A680F18A71F /* PBXTargetDependency */,
+			);
+			name = "Brightcove-Player-Core";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		424713FFAD7781A000DD9C7898869C7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		763BAC4FFBF76D21B46DDFACE0A2A2EE /* Pods-Brightcove-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B74F459E7AD8312D2B0BB8D358DB13B /* Pods-Brightcove-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86DFC5E720A71E829676BA1C5901E5D /* Pods-Brightcove-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FB689E5C248ECF763654EE0A9A9DBA /* Pods-Brightcove-dummy.m */; };
+		D5B43EAA3EB83CD01AF885CAC7382EFC /* bcovpuiiconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 052AFA7B14CD113C250B6D09D37EEA9A /* bcovpuiiconfont.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3489025988006D4B5A5BD227456A24F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA6B2ECD9BCD2F01136C3E682591197;
+			remoteInfo = "Brightcove-Player-Core";
+		};
+		975F344044888D8C440F95A0EDF65728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2738C6C669EE556A6BC7B9815F1C59A;
+			remoteInfo = "Brightcove-Player-Core-BCOVPUIResources";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052AFA7B14CD113C250B6D09D37EEA9A /* bcovpuiiconfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = bcovpuiiconfont.ttf; path = ios/static/BrightcovePlayerSDK.framework/bcovpuiiconfont.ttf; sourceTree = "<group>"; };
+		19F0DB560345E754C5CE53FFB4A4056F /* Pods-Brightcove-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Brightcove-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24BA1AE6D476890777A82BC50E27FF04 /* Pods-Brightcove-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Brightcove-resources.sh"; sourceTree = "<group>"; };
+		4A6034E0CBD623706BB95B2BCB826341 /* Pods-Brightcove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brightcove.debug.xcconfig"; sourceTree = "<group>"; };
+		75584C3DC1481740364DED985290C0A9 /* BrightcovePlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightcovePlayerSDK.framework; path = ios/static/BrightcovePlayerSDK.framework; sourceTree = "<group>"; };
+		7B74F459E7AD8312D2B0BB8D358DB13B /* Pods-Brightcove-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Brightcove-umbrella.h"; sourceTree = "<group>"; };
+		8C19F83B5D8B6894C18FDDD7F727C6A4 /* ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-Info.plist"; sourceTree = "<group>"; };
+		93FB689E5C248ECF763654EE0A9A9DBA /* Pods-Brightcove-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Brightcove-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5150358B8D542CC9FF13B656D23A5D7 /* Pods_Brightcove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Brightcove.framework; path = "Pods-Brightcove.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2684FDDC5D15D71184F9A398D01973 /* Pods-Brightcove.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Brightcove.modulemap"; sourceTree = "<group>"; };
+		C0B9A11AA17F73A401D88AA4154CED1B /* Pods-Brightcove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Brightcove.release.xcconfig"; sourceTree = "<group>"; };
+		C0CDE75241314A1BACB31ABB40321A81 /* BCOVPUIResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BCOVPUIResources.bundle; path = "Brightcove-Player-Core-BCOVPUIResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EF0A28D4DA08A831F43B905397F9C5 /* Pods-Brightcove-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brightcove-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D60BA73C48A835E2795F9F73CCDFF4B3 /* Pods-Brightcove-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Brightcove-Info.plist"; sourceTree = "<group>"; };
+		FCC681DB1037CCC4B14B6AD8FF869BB4 /* Brightcove-Player-Core.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Brightcove-Player-Core.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		742F3C45B71FE7D3D36D577A826396CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B481D6643C312FAFBE718F1429DCB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424713FFAD7781A000DD9C7898869C7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06893D15532279C3A86CC50302DA7F57 /* Brightcove-Player-Core */ = {
+			isa = PBXGroup;
+			children = (
+				806E1BF2CE259B25731225BB753C785A /* default */,
+				2964FB10EB41CB38CCA0E58105D70A93 /* Support Files */,
+			);
+			name = "Brightcove-Player-Core";
+			path = "Brightcove-Player-Core";
+			sourceTree = "<group>";
+		};
+		1FF36147C19A7433C3245562D3FBFF71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				052AFA7B14CD113C250B6D09D37EEA9A /* bcovpuiiconfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		226CB0D47A7A6D2FF4258983C69EF231 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75584C3DC1481740364DED985290C0A9 /* BrightcovePlayerSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2964FB10EB41CB38CCA0E58105D70A93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC681DB1037CCC4B14B6AD8FF869BB4 /* Brightcove-Player-Core.xcconfig */,
+				8C19F83B5D8B6894C18FDDD7F727C6A4 /* ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Brightcove-Player-Core";
+			sourceTree = "<group>";
+		};
+		55BBB6F86790335F78F89119CFC706F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE5481D4BDDE04C42DF885ED1C1441D /* Pods-Brightcove */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CE5481D4BDDE04C42DF885ED1C1441D /* Pods-Brightcove */ = {
+			isa = PBXGroup;
+			children = (
+				BD2684FDDC5D15D71184F9A398D01973 /* Pods-Brightcove.modulemap */,
+				19F0DB560345E754C5CE53FFB4A4056F /* Pods-Brightcove-acknowledgements.markdown */,
+				C0EF0A28D4DA08A831F43B905397F9C5 /* Pods-Brightcove-acknowledgements.plist */,
+				93FB689E5C248ECF763654EE0A9A9DBA /* Pods-Brightcove-dummy.m */,
+				D60BA73C48A835E2795F9F73CCDFF4B3 /* Pods-Brightcove-Info.plist */,
+				24BA1AE6D476890777A82BC50E27FF04 /* Pods-Brightcove-resources.sh */,
+				7B74F459E7AD8312D2B0BB8D358DB13B /* Pods-Brightcove-umbrella.h */,
+				4A6034E0CBD623706BB95B2BCB826341 /* Pods-Brightcove.debug.xcconfig */,
+				C0B9A11AA17F73A401D88AA4154CED1B /* Pods-Brightcove.release.xcconfig */,
+			);
+			name = "Pods-Brightcove";
+			path = "Target Support Files/Pods-Brightcove";
+			sourceTree = "<group>";
+		};
+		6010BDF41CB86BA27FEC88338C4D562B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CDE75241314A1BACB31ABB40321A81 /* BCOVPUIResources.bundle */,
+				B5150358B8D542CC9FF13B656D23A5D7 /* Pods_Brightcove.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806E1BF2CE259B25731225BB753C785A /* default */ = {
+			isa = PBXGroup;
+			children = (
+				226CB0D47A7A6D2FF4258983C69EF231 /* Frameworks */,
+				1FF36147C19A7433C3245562D3FBFF71 /* Resources */,
+			);
+			name = default;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DE531987C078AB22DF72DCCF72F7C825 /* Pods */,
+				6010BDF41CB86BA27FEC88338C4D562B /* Products */,
+				55BBB6F86790335F78F89119CFC706F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE531987C078AB22DF72DCCF72F7C825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06893D15532279C3A86CC50302DA7F57 /* Brightcove-Player-Core */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DCFE5733595DBE86C44F17E79764CDA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763BAC4FFBF76D21B46DDFACE0A2A2EE /* Pods-Brightcove-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62140B5F54E2FB710F522039FADEA18C /* Pods-Brightcove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7719D32B56F08B2669569866F1C7390B /* Build configuration list for PBXNativeTarget "Pods-Brightcove" */;
+			buildPhases = (
+				DCFE5733595DBE86C44F17E79764CDA1 /* Headers */,
+				019A5AD40728C55469DE13B18BD3EB8E /* Sources */,
+				7B481D6643C312FAFBE718F1429DCB96 /* Frameworks */,
+				6E59F4BBB3E2011C334C15379352D449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCB7F65B9911487621A90C7F04F9093 /* PBXTargetDependency */,
+			);
+			name = "Pods-Brightcove";
+			productName = "Pods-Brightcove";
+			productReference = B5150358B8D542CC9FF13B656D23A5D7 /* Pods_Brightcove.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2738C6C669EE556A6BC7B9815F1C59A /* Brightcove-Player-Core-BCOVPUIResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA365AA40B45E7AC8D1DA0D177E0CC94 /* Build configuration list for PBXNativeTarget "Brightcove-Player-Core-BCOVPUIResources" */;
+			buildPhases = (
+				B2CF68470F6CFBB63126AFE7E1B72410 /* Sources */,
+				742F3C45B71FE7D3D36D577A826396CF /* Frameworks */,
+				AF41890B339B84217BD0F34BAE2A3F56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brightcove-Player-Core-BCOVPUIResources";
+			productName = "Brightcove-Player-Core-BCOVPUIResources";
+			productReference = C0CDE75241314A1BACB31ABB40321A81 /* BCOVPUIResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6010BDF41CB86BA27FEC88338C4D562B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA6B2ECD9BCD2F01136C3E682591197 /* Brightcove-Player-Core */,
+				F2738C6C669EE556A6BC7B9815F1C59A /* Brightcove-Player-Core-BCOVPUIResources */,
+				62140B5F54E2FB710F522039FADEA18C /* Pods-Brightcove */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E59F4BBB3E2011C334C15379352D449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF41890B339B84217BD0F34BAE2A3F56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B43EAA3EB83CD01AF885CAC7382EFC /* bcovpuiiconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019A5AD40728C55469DE13B18BD3EB8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86DFC5E720A71E829676BA1C5901E5D /* Pods-Brightcove-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CF68470F6CFBB63126AFE7E1B72410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCB7F65B9911487621A90C7F04F9093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core";
+			target = 4BA6B2ECD9BCD2F01136C3E682591197 /* Brightcove-Player-Core */;
+			targetProxy = 3489025988006D4B5A5BD227456A24F9 /* PBXContainerItemProxy */;
+		};
+		EB387DB150B9936A1F2D0A680F18A71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Brightcove-Player-Core-BCOVPUIResources";
+			target = F2738C6C669EE556A6BC7B9815F1C59A /* Brightcove-Player-Core-BCOVPUIResources */;
+			targetProxy = 975F344044888D8C440F95A0EDF65728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5BEC98690DE917DD635426BB15FA3317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC681DB1037CCC4B14B6AD8FF869BB4 /* Brightcove-Player-Core.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Brightcove-Player-Core";
+				INFOPLIST_FILE = "Target Support Files/Brightcove-Player-Core/ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BCOVPUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7A08FE1D6A726236E1EC431861A3BE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A6034E0CBD623706BB95B2BCB826341 /* Pods-Brightcove.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brightcove/Pods-Brightcove-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brightcove/Pods-Brightcove.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AAB642F14C92E9104427618B0F61BE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC681DB1037CCC4B14B6AD8FF869BB4 /* Brightcove-Player-Core.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Brightcove-Player-Core";
+				INFOPLIST_FILE = "Target Support Files/Brightcove-Player-Core/ResourceBundle-BCOVPUIResources-Brightcove-Player-Core-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BCOVPUIResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E51AE4E3CD303DF8B87538D78BC7587A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC681DB1037CCC4B14B6AD8FF869BB4 /* Brightcove-Player-Core.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F068FAD4F4E00A2AA1E3D11AFA01ABD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B9A11AA17F73A401D88AA4154CED1B /* Pods-Brightcove.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Brightcove/Pods-Brightcove-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Brightcove/Pods-Brightcove.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F585B923AC517E0F45744A435E68F9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC681DB1037CCC4B14B6AD8FF869BB4 /* Brightcove-Player-Core.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
+				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7719D32B56F08B2669569866F1C7390B /* Build configuration list for PBXNativeTarget "Pods-Brightcove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A08FE1D6A726236E1EC431861A3BE18 /* Debug */,
+				F068FAD4F4E00A2AA1E3D11AFA01ABD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96AFFE4D87F712EAE6EE70AE1C630DA5 /* Build configuration list for PBXAggregateTarget "Brightcove-Player-Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585B923AC517E0F45744A435E68F9B2 /* Debug */,
+				E51AE4E3CD303DF8B87538D78BC7587A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA365AA40B45E7AC8D1DA0D177E0CC94 /* Build configuration list for PBXNativeTarget "Brightcove-Player-Core-BCOVPUIResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEC98690DE917DD635426BB15FA3317 /* Debug */,
+				AAB642F14C92E9104427618B0F61BE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

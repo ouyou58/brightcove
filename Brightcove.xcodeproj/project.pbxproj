@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894FC333301EF6CDB8B3E464 /* Pods_Brightcove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8146C6DE9692A854ABBFFF4A /* Pods_Brightcove.framework */; };
 		AAF3151A231BE07D009E64D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF31519231BE07D009E64D6 /* AppDelegate.swift */; };
 		AAF3151C231BE07D009E64D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF3151B231BE07D009E64D6 /* ViewController.swift */; };
 		AAF3151F231BE07D009E64D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF3151D231BE07D009E64D6 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		540B1035F63296002413E28B /* Pods-Brightcove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightcove.release.xcconfig"; path = "Target Support Files/Pods-Brightcove/Pods-Brightcove.release.xcconfig"; sourceTree = "<group>"; };
+		8146C6DE9692A854ABBFFF4A /* Pods_Brightcove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brightcove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF31516231BE07D009E64D6 /* Brightcove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brightcove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF31519231BE07D009E64D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF3151B231BE07D009E64D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		AAF31520231BE07E009E64D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAF31523231BE07E009E64D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAF31525231BE07E009E64D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F78F1F2C499F190359B382B2 /* Pods-Brightcove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brightcove.debug.xcconfig"; path = "Target Support Files/Pods-Brightcove/Pods-Brightcove.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				894FC333301EF6CDB8B3E464 /* Pods_Brightcove.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		999BCFF38090248F9A1A28AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8146C6DE9692A854ABBFFF4A /* Pods_Brightcove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAF3150D231BE07D009E64D6 = {
 			isa = PBXGroup;
 			children = (
 				AAF31518231BE07D009E64D6 /* Brightcove */,
 				AAF31517231BE07D009E64D6 /* Products */,
+				B42DE4B0164483A68B6A6F45 /* Pods */,
+				999BCFF38090248F9A1A28AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = Brightcove;
 			sourceTree = "<group>";
 		};
+		B42DE4B0164483A68B6A6F45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F78F1F2C499F190359B382B2 /* Pods-Brightcove.debug.xcconfig */,
+				540B1035F63296002413E28B /* Pods-Brightcove.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAF31528231BE07E009E64D6 /* Build configuration list for PBXNativeTarget "Brightcove" */;
 			buildPhases = (
+				932FF1BC7093E8B9406EFC3B /* [CP] Check Pods Manifest.lock */,
 				AAF31512231BE07D009E64D6 /* Sources */,
 				AAF31513231BE07D009E64D6 /* Frameworks */,
 				AAF31514231BE07D009E64D6 /* Resources */,
+				B237FB7CBD6D992FEF37FFFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		932FF1BC7093E8B9406EFC3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brightcove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B237FB7CBD6D992FEF37FFFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brightcove/Pods-Brightcove-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Brightcove-Player-Core/BCOVPUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BCOVPUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brightcove/Pods-Brightcove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AAF31512231BE07D009E64D6 /* Sources */ = {
@@ -280,6 +353,7 @@
 		};
 		AAF31529231BE07E009E64D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78F1F2C499F190359B382B2 /* Pods-Brightcove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +372,7 @@
 		};
 		AAF3152A231BE07E009E64D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540B1035F63296002413E28B /* Pods-Brightcove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
